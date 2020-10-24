@@ -55,8 +55,6 @@ div.row {
 }
 
 body {
-  color: black;
-  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -84,7 +82,6 @@ main {
   transition: width 600ms ease;
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
-
 }
 
 .navbar-nav {
@@ -196,6 +193,11 @@ main {
   main {
     margin: 0;
   }
+  .mypic {
+    height: 25vh;
+    width: 25vh;
+    border: #141418 5px solid;
+  }
 }
 
 /* Large screens */
@@ -248,4 +250,14 @@ main {
   margin: auto;
   min-width: 50%;
   min-height: 50%;
+}
+.mypic {
+  border: #141418 10px solid;
+  border-radius: 100%;
+}
+  
+@media only screen and (max-width: 600px) {
+  .copyright {
+    margin-bottom: 10vh;
+  }
 }
