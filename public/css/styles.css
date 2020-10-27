@@ -57,7 +57,8 @@ div.row {
 body {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -256,7 +257,7 @@ main {
   border: #141418 10px solid;
   border-radius: 100%;
 }
-  
+
 @media only screen and (max-width: 600px) {
   .copyright {
     margin-bottom: 10vh;
