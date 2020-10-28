@@ -199,7 +199,7 @@
         }
 
         .feedback-input {
-          color: white;
+          color: black;
           font-family: Helvetica, Arial, sans-serif;
           font-weight: 500;
           font-size: 18px;
@@ -252,17 +252,20 @@
             type="text"
             class="feedback-input"
             placeholder="Name"
+            required
           />
           <input
             name="email"
-            type="text"
+            type="email"
             class="feedback-input"
             placeholder="Email"
+            required
           />
           <textarea
             name="text"
             class="feedback-input"
             placeholder="Message"
+            required
           ></textarea>
           <input type="submit" value="SUBMIT" />
         </form>
@@ -292,6 +295,6 @@
     <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Code injected by live-server -->
+    
   </body>
 </html>
