@@ -200,6 +200,14 @@ main {
     width: 25vh;
     border: #141418 5px solid;
   }
+  .myP {
+    line-height: normal;
+    margin-bottom: 15vh;
+    margin-top: 1vh;
+    text-align: center;
+    margin-left: 25vw;
+    align-self: center;
+  }
 }
 
 /* Large screens */
@@ -257,6 +265,17 @@ main {
 .mypic {
   border: #141418 10px solid;
   border-radius: 100%;
+}
+.myP {
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+  width: 50vw;
+  margin-bottom: 15vh;
+  margin-top: 1vh;
+  text-align: center;
+  margin-left: 25vw;
+  align-self: center;
 }
 
 @media only screen and (max-width: 600px) {
