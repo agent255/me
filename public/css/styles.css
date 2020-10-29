@@ -280,6 +280,6 @@ main {
 
 @media only screen and (max-width: 600px) {
   .copyright {
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
   }
 }

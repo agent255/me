@@ -1,64 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Jekyll v4.1.1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="../images/mypic.webp" type="image/x-icon">
   <link rel="stylesheet" href="../css/styles.css">
-
+  <link
+    href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAeZS5AD1WgAA3V4wAHS5JAE1vnQAiLkAATm+dABYZHQBebn8ALEJyAKGnsgABBwwAOUVXAGSGtAAzR2YAHzJVAAkJCQCVs9YAk52nAAoPEgCUnacADw4PAHGPtAAiJikAChMnAIupwgCcoq0Aj6fFAFJtjwCdprAALzxqADRFWAAuQXAAHTJNABsbGwAmMkQAHTNZAAcJCgAPHj8AgIWFAFtdVwBUdqEAmq7RABgfMABjdIkAbouyAAgOGQAiJCQAM1aCADZUhQAgKTwAcZi+ADxCRwAYFxkAoKaxAGmEpwA9XY4ACQ0OABYhNwBHY4UAgqPEAElMSgBgdpkAJjtXAAoRGgByd3gASk5QAHCStgAaJj0AOTs8ACgoKAArPmAAdF5SAGKCqwBPcJEAYYOuAB4qUgATGiMAfpi2AAQFCQAtMC4AHjNSAGWItAD2//wApKq1AHuEjQBjdIIACgwMADJLdQBtirEADg0PAMTGwACWnKcAOk9vACQ7YQBee6AAl6CqACU6ZwBhfaYAXn+sABUVFQB7k7EAnaStABQZGAD29+4An6WwADpCSQCgqLAAZ4SpADdBYQAgMlAAITFWAJGXogAVIzYAGiMtAHCMrwA7TWoALDdNAEVMVQAkIiEAMDpEAAoOHAAiJzAAmqCrAE5mkACSpboAISk2AE5vkAA3QE0AipGaAEJXdgApRH0AOUZWAM/U0ABVcJwAQUlNAH6FkgAgIR8AQE5lAIOMlQBZa3MAcpS/ACQrNAAnQHIAFRggAJ6osgAXGRoABgYGAD1bjAClrLUAp624AFhfYgAwNz0AWXmdAA8PDwBKZokARVBaACQmJgCZn6oATGWPAA4RHgAgKjsAMUFSAAoaJwBTbZUAIy9BAAAIDQCGmKgALS8vABYcJAAiM00Ao6y2ACpJfAA/SlIACgoKABohKgAaNW4AlZ2cAJSapQBFZZAAJDlfACY6WQCVnqgALT5TAEhomQAbKEgAKD9xAGSDqgBOcZkATm+cABYYIgBARUQAeIKMAA0aOgBqhacALkZ0AFZ1nABadJkAXXWTABgjMQAVIzoAGCE9AA0QFABMZI4AHic0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACmOw91JIsAAAAAAAAAAFRcg1k5ubwtCWkAAAAAACCrHZDECiGlAqiGSQAAAHJSpDInyk0fbhlgdnvNAACFIjEDhGK6tX27U0G4oQAGDEWcNA6VRCuHjhIXrjOio42xgL3CSMMcxnA9OMiqj3GJGkvJUHolbS/LXp0oViyzXXc8QG8Qrb5foMdrf7I1G3wYc5rFKgVkLmZPiBSneVULmSa2tAdMSmM/OkZOgbAAN4IRv1oBdMwECFhoFWcAAJ83W1FXfg2Rk2WeQh5sAAAAl5g2ioqbIzCpKZKWAAAAAABhwRaUr3hHwLesAAAAAAAAAABqE0M+jJcAAAAAAPgfAADgBwAAwAMAAIABAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAA4AcAAPgfAAA="
+    rel="icon" type="image/x-icon" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
+    /*HI */
+    body {
+      text-align: center;
     }
 
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+
+    /*resources page style*/
+
+    .card {
+      border: 3px solid rgb(0 0 0);
+      border-radius: 1.25rem;
+    }
+
+    img {
+      margin-top: 5vh;
+    }
+
+    body {
+      color: white;
+    }
+
+    a {
+      color: white;
+      text-emphasis: none;
+    }
+
+    a:hover {
+      color: yellowgreen;
+      text-emphasis: underline;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .last {
+        margin-bottom: 15vh;
       }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <style>
-    html {
-      font-size: 14px;
-    }
-
-    @media (min-width: 768px) {
-      html {
-        font-size: 16px;
-      }
-    }
-
-    .container {
-      max-width: 960px;
-    }
-
-    .pricing-header {
-      max-width: 700px;
-    }
-
-    .card-deck .card {
-      min-width: 220px;
-    }
-
-    body h4 {
-      color: black;
     }
   </style>
 </head>
@@ -96,11 +83,13 @@
                 class="fa-primary"></path>
             </g>
           </svg>
-          <span class="link-text"> Home </span>
+          <span class="link-text">
+            Home
+          </span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="../beta/portfolio.html" class="nav-link">
           <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="alien-monster" role="img"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
             class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x">
@@ -111,11 +100,16 @@
               <path fill="currentColor" d="M160,320h64V224H160Zm192-96v96h64V224Z" class="fa-primary"></path>
             </g>
           </svg>
-          <span class="link-text"><u><b>Portfolio</b></u> </span>
+          <span class="link-text"><u>
+              <b>
+                Portfolio
+              </b>
+
+            </u> </span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="../about.html" class="nav-link">
           <svg aria-hidden="true" focusable="false" lll data-prefix="fad" data-icon="space-station-moon-alt" role="img"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
             class="svg-inline--fa fa-space-station-moon-alt fa-w-16 fa-5x">
@@ -145,62 +139,49 @@
                 class="fa-primary"></path>
             </g>
           </svg>
-          <span class="link-text">Contact me
-          </span>
+          <span class="link-text">Contact me</span>
         </a>
       </li>
     </ul>
   </nav>
-  <section class="home">
-    <div id="bg" style="z-index: -1">
-      <img src="../images/bg1.jpg" alt="" />
-    </div>
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">My Portfolio</h1>
-      <p class="lead">All of these are projects which I made, either on my own or with someone else.</p>
-    </div>
-
-    <div class="container">
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">TinDog</h4>
-          </div>
-          <div class="card-body">
-            <h4>https://bit.ly/34zaRJI</h4>
-            <img src="../images/tindog.jpg" height="100vh" alt="" style="margin-bottom: 15%;">
-
-          </div>
-        </div>
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Websters</h4>
-          </div>
-          <div class="card-body">
-            <h4>https://bit.ly/37PkfuY</h4>
-            <img src="../images/websters.jpg" height="100vh" alt="" style="margin-bottom: 15%;">
-
-          </div>
-        </div>
-        <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 font-weight-normal">My personal website! (This)</h4>
-          </div>
-          <div class="card-body">
-            <h4>https://bit.ly/31PGX2d</h4>
-            <img src="../images/personal.jpg" height="100vh" alt="" style="margin-bottom: 15%;">
-
-          </div>
+  <div id="bg" style="z-index: -1">
+    <img src="../images/bg1.jpg" alt="" />
+  </div>
+  <div class="resources">
+    <div class="row">
+      <div class="card col-lg-3 col-md-4 col-sm-6">
+        <img src="../images/tindog.jpg" height="100vh" alt="">
+        <div class="card-body">
+          <p class="card-text"><a target="_blank" href="https://tindog123455.netlify.app/">TinDog</a></p>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+      <div class="card col-lg-3 col-md-4 col-sm-6">
+        <img src="../images/websters.jpg" alt="" height="100vh">
+        <div class="card-body">
+          <p class="card-text"><a target="_blank" href="https://webstersweb.netlify.app/">Websters Resources</a></p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6">
+        <img class="card-img-top" src="../images/personal.jpg" alt="" height="100vh">
+        <div class="card-body">
+          <p class="card-text"><a target="_blank" href="https://hemagnarao.web.app">My personal website</a></p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-4 col-sm-6 last">
+        <img class="card-img-top" src="../images/ic_timer_48px.svg" alt="Card image cap" height="100vh">
+        <div class="card-body">
+          <p class="card-text">More Coming Soon!</p>
+        </div>
+      </div>
 
-      <script>
-        Swal.fire(
-          "Warning!",
-          "This page is in beta, so you may see some funky incomplete styling",
-          "warning"
-        );    </script>
+    </div>
+    <script>
+      Swal.fire(
+        "Warning!",
+        "This site is in beta, so you may see some funky incomplete styling",
+        "warning"
+      );
+    </script>
 </body>
 
 </html>
