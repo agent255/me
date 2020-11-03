@@ -188,100 +188,20 @@
           style="text-align: center; color: white"
         />
       </div>
-      <style>
-        @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-        form {
-          max-width: 420px;
-          margin: 50px auto;
-        }
-
-        .feedback-input {
-          color: black;
-          font-family: Helvetica, Arial, sans-serif;
-          font-weight: 500;
-          font-size: 18px;
-          border-radius: 5px;
-          line-height: 22px;
-          background-color: transparent;
-          border: 2px solid #cc6666;
-          transition: all 0.3s;
-          padding: 13px;
-          margin-bottom: 15px;
-          width: 100%;
-          box-sizing: border-box;
-          outline: 0;
-        }
-
-        .feedback-input:focus {
-          border: 2px solid #cc4949;
-        }
-
-        textarea {
-          height: 150px;
-          line-height: 150%;
-          resize: vertical;
-        }
-
-        [type="submit"] {
-          font-family: "Montserrat", Arial, Helvetica, sans-serif;
-          width: 100%;
-          background: #cc6666;
-          border-radius: 5px;
-          border: 0;
-          cursor: pointer;
-          color: white;
-          font-size: 24px;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          transition: all 0.3s;
-          margin-top: -4px;
-          font-weight: 700;
-          margin-bottom: 5vh;
-        }
-        [type="submit"]:hover {
-          background: #cc4949;
-        }
-      </style>
-      <div class="up">
-        <form action="https://formspree.io/f/xpzorarw" method="POST">
-          <input
-            name="name"
-            type="text"
-            class="feedback-input"
-            placeholder="Name"
-            required
-          />
-          <input
-            name="email"
-            type="email"
-            class="feedback-input"
-            placeholder="Email"
-            required
-          />
-          <textarea
-            name="text"
-            class="feedback-input"
-            placeholder="Message"
-            required
-          ></textarea>
-          <input type="submit" value="SUBMIT" />
-        </form>
+      <div style="text-align: center; overflow: none;">
+        <iframe
+          style="text-align: center; overflow: none; color: white; background-image: url(./images/bg1.jpg);" 
+          src="https://docs.google.com/forms/d/e/1FAIpQLScMPW0obL8YDy1w0NamOq6mhU9pCfDH2nXH5Q3cMPmDoffgUw/viewform?embedded=true"
+          width="640"
+          height="705"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >Loading…</iframe
+        >
       </div>
     </section>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="/__/firebase/7.24.0/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="/__/firebase/7.24.0/firebase-analytics.js"></script>
-
-    <!-- Initialize Firebase -->
-    <script src="/__/firebase/init.js"></script>
     <script src="./js/jquery.min.js" defer></script>
-    <script>
-      localStorage.setItem("alerted", "yes");
-    </script>
   </body>
 </html>
