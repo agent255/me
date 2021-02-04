@@ -1,0 +1,23 @@
+body {
+  background-color: #eeb902;
+}
+
+marquee {
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+#scene1h1 {
+  color: blue;
+  margin-top: 5rem;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
