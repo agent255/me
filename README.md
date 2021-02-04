@@ -1,7 +1,4 @@
-## MY PERSONAL WEBSITE
-
-### LIVE LINK ----- https://hemagnarao.web.app/
-
-
-#Copyleft 🄯 Hemagna Rao 2021-2022
+# Copyleft 🄯 Hemagna Rao 2021-2022
+### My personal website
+#### LIVE LINK ----- https://hemagnarao.web.app/
 
